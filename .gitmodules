@@ -1,0 +1,4 @@
+[submodule "build/jetson-containers"]
+	path = build/jetson-containers
+	url = git@github.com:tsnowak/jetson-containers.git
+	branch = master
