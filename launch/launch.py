@@ -75,7 +75,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', "--config", help="Path to config file", default="./base/config.json")
+    parser.add_argument('-c', "--config", help="Path to config file", default="./base/config-3510.json")
     parser.add_argument("--rebuild", help="Force rebuild of docker image", dest='rebuild', type=lambda x:bool(util.strtobool(x)))
     parser.add_argument("--headless", help="Run with or without an attached display.", dest='headless', type=lambda x:bool(util.strtobool(x)))
     args = vars(parser.parse_args())
