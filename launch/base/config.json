@@ -4,6 +4,6 @@
     "image-name": "ros:humble-desktop",
     "base-image": "osrf/ros:humble-desktop",
     "mounts": {
-        "..": "/home/robot"
+        "../..": "/home/robot"
     }
 }
