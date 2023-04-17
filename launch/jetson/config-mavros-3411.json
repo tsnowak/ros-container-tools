@@ -1,0 +1,9 @@
+{
+    "dockerfile": "jetson/Dockerfile",
+    "container-name": "ros2-humble",
+    "image-name": "ros:ros-humble-pytorch-l4t-r34.1.1-deploy",
+    "base-image": "theodorenowak265/ros:ros-humble-pytorch-l4t-r34.1.1-mavros",
+    "mounts": {
+        "../..": "/home/robot"
+    }
+}
